@@ -1,5 +1,5 @@
 [workspace]
-members = [".", "api", "common", "core", "entity", "middleware","migration"]
+members = [".", "entity","migration","api","core","common","middleware"]
 
 [package]
 name = "hello-rust"
