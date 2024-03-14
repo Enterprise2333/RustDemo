@@ -117,6 +117,10 @@ dependencies = [
 [[package]]
 name = "api"
 version = "0.1.0"
+dependencies = [
+ "axum",
+ "tokio",
+]
 
 [[package]]
 name = "async-attributes"
@@ -990,8 +994,8 @@ dependencies = [
 name = "hello-rust"
 version = "0.1.0"
 dependencies = [
- "axum",
- "tokio",
+ "api",
+ "dotenvy",
 ]
 
 [[package]]
